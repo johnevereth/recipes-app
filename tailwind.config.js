@@ -8,7 +8,7 @@ module.exports = {
       seashell: "#F8EDEB",
       "peach-puff": "#F9DCC4",
       "peach-crayola": "#FEC89A",
-      white: "#F7FAFC",
+      white: "#FAF9F6",
       black: "#2D3748",
     },
     extend: {
@@ -17,7 +17,7 @@ module.exports = {
         shrikhand: ["Shrikhand"],
       },
       backgroundImage: {
-        "background-cake": "url('../src/images/bg.jpg')",
+        "background-cake": "url('../public/images/bg.jpg')",
       },
     },
   },

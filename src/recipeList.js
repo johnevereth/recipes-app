@@ -504,3 +504,5 @@ const recipeList = [
     time: { prep: "15 minutes", cook: "20 minutes" },
   },
 ];
+
+export default recipeList;
