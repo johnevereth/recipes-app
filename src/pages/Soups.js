@@ -24,6 +24,7 @@ const Soups = () => {
         </div>
         <div className="w-[40%]">
           <img
+          loading="lazy"
             className="w-full h-full"
             src={eachRecipe.image}
             alt="Recipe Item"

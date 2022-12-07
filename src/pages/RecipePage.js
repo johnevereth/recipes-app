@@ -28,6 +28,7 @@ const RecipePage = () => {
             })}
           </ul>
           <img
+            loading="lazy"
             src={`.${recipeNeeded.image}`}
             alt="Recipe"
             className="h-[375px] rounded-lg"
