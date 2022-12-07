@@ -16,8 +16,8 @@ const RecipePage = () => {
         <h3 className="font-playfair text-2xl text-black">
           {recipeNeeded.category}
         </h3>
-        <div className="w-[55%] flex flex-row justify-between mt-6 rounded-xl px-16 py-8 bg-peach-crayola">
-          <ul className="text-xl font-playfair text-black">
+        <div className="w-[80%] lg:w-[55%] flex flex-col-reverse lg:flex-row justify-between mt-6 rounded-xl px-5 lg:px-16 py-8 bg-peach-crayola">
+          <ul className="text-xl font-playfair pt-5 lg:pt-0 text-black">
             {recipeNeeded.ingredients.map((ingredient) => {
               return (
                 <li key={ingredient}>
@@ -31,14 +31,14 @@ const RecipePage = () => {
             loading="lazy"
             src={`.${recipeNeeded.image}`}
             alt="Recipe"
-            className="h-[375px] rounded-lg"
+            className="lg:h-[375px] rounded-lg"
           />
         </div>
-        <div className="bg-peach-crayola rounded-xl mt-5 px-16 py-8 w-[70%]">
-          <h2 className="text-3xl text-black underline font-shrikhand text-center">
+        <div className="bg-peach-crayola rounded-xl mt-5 px-5 lg:px-16 py-8 w-[85%] lg:w-[70%]">
+          <h2 className="text-2xl md:text-3xl text-black underline font-shrikhand text-center">
             Instructions:
           </h2>
-          <ul className="list-decimal text-black text-2xl font-playfair mt-2">
+          <ul className="list-decimal text-black text-lg md:text-2xl px-3 md:px-0 font-playfair mt-2">
             {recipeNeeded.instructions.map((instruction) => {
               return <li key={instruction}>{instruction}</li>;
             })}
