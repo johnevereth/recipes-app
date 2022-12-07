@@ -40,7 +40,7 @@ const RecipePage = () => {
           </h2>
           <ul className="list-decimal text-black text-2xl font-playfair mt-2">
             {recipeNeeded.instructions.map((instruction) => {
-              return <li>{instruction}</li>;
+              return <li key={instruction}>{instruction}</li>;
             })}
           </ul>
         </div>
