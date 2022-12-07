@@ -1,5 +1,6 @@
 const recipeList = [
   {
+    id: "1",
     name: "Carrot Cake",
     image: "./images/carrot-cake.jpg",
     category: "Cakes",
@@ -12,7 +13,8 @@ const recipeList = [
       ["½", "tsp nutmeg"],
       ["4", "cups of sugar"],
       ["2", "cups of oil"],
-      ["10", "whole eggs"][("8", "cups of shredded carrot")],
+      ["10", "whole eggs"],
+      ["8", "cups of shredded carrot"],
     ],
     instructions: [
       "Mix oil, sugar, and eggs.",
@@ -24,6 +26,7 @@ const recipeList = [
     time: { prep: "25 minutes", cook: "25 minutes" },
   },
   {
+    id: "2",
     name: "Vanilla Cake",
     image: "./images/vanilla-cake.jpg",
     category: "Cakes",
@@ -49,6 +52,7 @@ const recipeList = [
     time: { prep: "20 minutes", cook: "25 minutes" },
   },
   {
+    id: "3",
     name: "Lemon Curd",
     image: "./images/lemon-curd.jpg",
     category: "Fillings",
@@ -69,6 +73,7 @@ const recipeList = [
     time: { prep: "10 minutes", cook: "15 minutes" },
   },
   {
+    id: "4",
     name: "Fudge Filling",
     image: "./images/fudge-filling.jpg",
     category: "Fillings",
@@ -88,6 +93,7 @@ const recipeList = [
     time: { prep: "10 minutes", cook: "5 minutes" },
   },
   {
+    id: "5",
     name: "Peanut Butter Cookies",
     image: "./images/peanut-butter-cookies.jpg",
     category: "Cookies",
@@ -112,6 +118,7 @@ const recipeList = [
     time: { prep: "15 minutes", cook: "15 minutes" },
   },
   {
+    id: "6",
     name: "Chocolate Chip Cookies",
     image: "./images/chocolate-chip-cookies.jpg",
     category: "Cookies",
@@ -135,6 +142,7 @@ const recipeList = [
     time: { prep: "15 minutes", cook: "15 minutes" },
   },
   {
+    id: "7",
     name: "Salted Caramel Filling",
     image: "./images/salted-caramel-filling.jpg",
     category: "Filling",
@@ -156,6 +164,7 @@ const recipeList = [
     time: { prep: "5 minutes", cook: "15 minutes" },
   },
   {
+    id: "8",
     name: "Swiss Macarons",
     image: "./images/swiss-macarons.jpg",
     category: "Cookies",
@@ -176,6 +185,7 @@ const recipeList = [
     time: { prep: "35 minutes", cook: "16 minutes" },
   },
   {
+    id: "9",
     name: "Scottish Short Bread",
     image: "./images/scottish-short-bread.jpg",
     category: "Cookies",
@@ -194,6 +204,7 @@ const recipeList = [
     time: { prep: "10 minutes", cook: "15 minutes" },
   },
   {
+    id: "10",
     name: "Basic Scone",
     image: "./images/basic-scone.jpg",
     category: "Baking",
@@ -219,6 +230,7 @@ const recipeList = [
     time: { prep: "15 minutes", cook: "16 minutes" },
   },
   {
+    id: "11",
     name: "Banana Muffins",
     image: "./images/banana-muffins.jpg",
     category: "Baking",
@@ -241,6 +253,7 @@ const recipeList = [
     time: { prep: "15 minutes", cook: "20 minutes" },
   },
   {
+    id: "12",
     name: "Dinner Rolls",
     image: "./images/dinner-rolls.jpg",
     category: "Baking",
@@ -272,6 +285,7 @@ const recipeList = [
     time: { prep: "2.5 hours", cook: "18 minutes" },
   },
   {
+    id: "13",
     name: "Lasagna",
     image: "./images/lasagna.jpg",
     category: "Dinner",
@@ -319,6 +333,7 @@ const recipeList = [
     time: { prep: "60 minutes", cook: "60 minutes" },
   },
   {
+    id: "14",
     name: "Chicken Pot Pie Soup",
     image: "./images/chicken-pot-pie-soup.jpg",
     category: "Soups",
@@ -358,6 +373,7 @@ const recipeList = [
     time: { prep: "40 minutes", cook: "30 minutes" },
   },
   {
+    id: "15",
     name: "Beef Stew",
     image: "./images/beef-stew.jpg",
     category: "Dinners",
@@ -394,6 +410,7 @@ const recipeList = [
     time: { prep: "30 minutes", cook: "8 hours" },
   },
   {
+    id: "16",
     name: "Chicken Noodle Soup",
     image: "./images/chicken-noodle-soup.jpg",
     category: "Soups",
@@ -422,6 +439,7 @@ const recipeList = [
     time: { prep: "30 minutes", cook: "40 minutes" },
   },
   {
+    id: "17",
     name: "Tomato Soup",
     image: "./images/tomato-soup.jpg",
     category: "Soups",
@@ -460,6 +478,7 @@ const recipeList = [
     time: { prep: "30 minutes", cook: "90 minutes" },
   },
   {
+    id: "18",
     name: "Tuscan Chicken Pasta",
     image: "./images/tuscan-chicken-pasta.jpg",
     category: "Dinners",

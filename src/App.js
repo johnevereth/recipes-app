@@ -9,6 +9,8 @@ import Cookies from "./pages/Cookies";
 import Dinners from "./pages/Dinners";
 import Fillings from "./pages/Fillings";
 import Soups from "./pages/Soups";
+import RecipePage from "./pages/RecipePage";
+import NotFound from "./pages/NotFound";
 
 function App() {
   return (
@@ -22,6 +24,8 @@ function App() {
         <Route path="/dinners" element={<Dinners />} />
         <Route path="/fillings" element={<Fillings />} />
         <Route path="/soups" element={<Soups />} />
+        <Route path="/recipe/:id" element={<RecipePage />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
     </Layout>
   );

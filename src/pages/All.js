@@ -1,12 +1,14 @@
 import React from "react";
 import recipeList from "../recipeList";
+import { Link } from "react-router-dom";
 
 const All = () => {
   const recipes = recipeList.map((eachRecipe) => {
     return (
-      <div
+      <Link
+        to={`/recipe/${eachRecipe.id}`}
         key={eachRecipe.name}
-        className="flex flex-row w-[30%] h-[150px] bg-peach-crayola my-3 mx-3 overflow-hidden rounded-xl"
+        className="flex flex-row w-[30%] h-[150px] hover:transition-transform hover:scale-110 hover:z-[1] cursor-pointer bg-peach-crayola my-3 mx-3 overflow-hidden rounded-xl"
       >
         <div className="w-[60%] relative">
           <h2 className="font-shrikhand tracking-wider text-2xl text-center mt-5 px-3">
@@ -23,14 +25,13 @@ const All = () => {
             alt="Recipe Item"
           />
         </div>
-      </div>
+      </Link>
     );
   });
 
   return (
     <div className="bg-seashell">
-      <h1>All Recipes</h1>
-      <div className="flex flex-row flex-wrap justify-center items-center mt-12">
+      <div className="flex flex-row flex-wrap justify-center items-center pt-20">
         {recipes}
       </div>
     </div>
