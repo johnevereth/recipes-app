@@ -16,7 +16,7 @@ const RecipePage = () => {
         <h3 className="font-playfair text-2xl text-black">
           {recipeNeeded.category}
         </h3>
-        <div className="w-[65%] flex flex-row justify-around mt-6">
+        <div className="w-[55%] flex flex-row justify-between mt-6 rounded-xl px-16 py-8 bg-peach-crayola">
           <ul className="text-xl font-playfair text-black">
             {recipeNeeded.ingredients.map((ingredient) => {
               return (
@@ -33,11 +33,11 @@ const RecipePage = () => {
             className="h-[375px] rounded-lg"
           />
         </div>
-        <div className="">
-          <h2 className="text-3xl text-black underline font-shrikhand mt-8">
+        <div className="bg-peach-crayola rounded-xl mt-5 px-16 py-8 w-[70%]">
+          <h2 className="text-3xl text-black underline font-shrikhand text-center">
             Instructions:
           </h2>
-          <ul className="list-decimal text-black text-3xl font-playfair mt-2">
+          <ul className="list-decimal text-black text-2xl font-playfair mt-2">
             {recipeNeeded.instructions.map((instruction) => {
               return <li>{instruction}</li>;
             })}

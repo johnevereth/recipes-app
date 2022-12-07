@@ -145,7 +145,7 @@ const recipeList = [
     id: "7",
     name: "Salted Caramel Filling",
     image: "./images/salted-caramel-filling.jpg",
-    category: "Filling",
+    category: "Fillings",
     ingredients: [
       ["1", "cup of white sugar"],
       ["6", "tbsp of salted butter cut into pieces"],
