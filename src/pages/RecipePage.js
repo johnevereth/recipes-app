@@ -31,7 +31,7 @@ const RecipePage = () => {
             loading="lazy"
             src={`.${recipeNeeded.image}`}
             alt="Recipe"
-            className="lg:h-[375px] rounded-lg"
+            className="lg:h-[375px] rounded-lg ml-2"
           />
         </div>
         <div className="bg-peach-crayola rounded-xl mt-5 px-5 lg:px-16 py-8 w-[85%] lg:w-[70%]">
