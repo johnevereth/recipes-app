@@ -2,7 +2,7 @@ const recipeList = [
   {
     id: "1",
     name: "Carrot Cake",
-    image: "./images/carrot-cake.jpg",
+    image: "./images/carrot-cake.webp",
     category: "Cakes",
     ingredients: [
       ["4", "cups of flour"],
@@ -28,7 +28,7 @@ const recipeList = [
   {
     id: "2",
     name: "Vanilla Cake",
-    image: "./images/vanilla-cake.jpg",
+    image: "./images/vanilla-cake.webp",
     category: "Cakes",
     ingredients: [
       ["2 ½", "cups of flour"],
@@ -54,7 +54,7 @@ const recipeList = [
   {
     id: "3",
     name: "Lemon Curd",
-    image: "./images/lemon-curd.jpg",
+    image: "./images/lemon-curd.webp",
     category: "Fillings",
     ingredients: [
       ["⅔", "cup of white sugar"],
@@ -75,7 +75,7 @@ const recipeList = [
   {
     id: "4",
     name: "Fudge Filling",
-    image: "./images/fudge-filling.jpg",
+    image: "./images/fudge-filling.webp",
     category: "Fillings",
     ingredients: [
       ["1", "cup of powdered sugar"],
@@ -95,7 +95,7 @@ const recipeList = [
   {
     id: "5",
     name: "Peanut Butter Cookies",
-    image: "./images/peanut-butter-cookies.jpg",
+    image: "./images/peanut-butter-cookies.webp",
     category: "Cookies",
     ingredients: [
       ["2 ½", "cups of flour"],
@@ -120,7 +120,7 @@ const recipeList = [
   {
     id: "6",
     name: "Chocolate Chip Cookies",
-    image: "./images/chocolate-chip-cookies.jpg",
+    image: "./images/chocolate-chip-cookies.webp",
     category: "Cookies",
     ingredients: [
       ["2 ½", "cups of flour"],
@@ -144,7 +144,7 @@ const recipeList = [
   {
     id: "7",
     name: "Salted Caramel Filling",
-    image: "./images/salted-caramel-filling.jpg",
+    image: "./images/salted-caramel-filling.webp",
     category: "Fillings",
     ingredients: [
       ["1", "cup of white sugar"],
@@ -166,7 +166,7 @@ const recipeList = [
   {
     id: "8",
     name: "Swiss Macarons",
-    image: "./images/swiss-macarons.jpg",
+    image: "./images/swiss-macarons.webp",
     category: "Cookies",
     ingredients: [
       ["100g", "of almond flour"],
@@ -187,7 +187,7 @@ const recipeList = [
   {
     id: "9",
     name: "Scottish Short Bread",
-    image: "./images/scottish-short-bread.jpg",
+    image: "./images/scottish-short-bread.webp",
     category: "Cookies",
     ingredients: [
       ["4", "cups of cold butter"],
@@ -206,7 +206,7 @@ const recipeList = [
   {
     id: "10",
     name: "Basic Scone",
-    image: "./images/basic-scone.jpg",
+    image: "./images/basic-scone.webp",
     category: "Baking",
     ingredients: [
       ["6", "cups of flour"],
@@ -232,7 +232,7 @@ const recipeList = [
   {
     id: "11",
     name: "Banana Muffins",
-    image: "./images/banana-muffins.jpg",
+    image: "./images/banana-muffins.webp",
     category: "Baking",
     ingredients: [
       ["3", "large mashed bananas"],
@@ -255,7 +255,7 @@ const recipeList = [
   {
     id: "12",
     name: "Dinner Rolls",
-    image: "./images/dinner-rolls.jpg",
+    image: "./images/dinner-rolls.webp",
     category: "Baking",
     ingredients: [
       ["¼", "cup of water at 110F°"],
@@ -287,7 +287,7 @@ const recipeList = [
   {
     id: "13",
     name: "Lasagna",
-    image: "./images/lasagna.jpg",
+    image: "./images/lasagna.webp",
     category: "Dinner",
     ingredients: [
       ["12", "sheets of lasagna noodles"],
@@ -335,7 +335,7 @@ const recipeList = [
   {
     id: "14",
     name: "Chicken Pot Pie Soup",
-    image: "./images/chicken-pot-pie-soup.jpg",
+    image: "./images/chicken-pot-pie-soup.webp",
     category: "Soups",
     ingredients: [
       ["5", "carrots cut into cubes"],
@@ -375,7 +375,7 @@ const recipeList = [
   {
     id: "15",
     name: "Beef Stew",
-    image: "./images/beef-stew.jpg",
+    image: "./images/beef-stew.webp",
     category: "Dinners",
     ingredients: [
       ["4", "carrots chopped"],
@@ -412,7 +412,7 @@ const recipeList = [
   {
     id: "16",
     name: "Chicken Noodle Soup",
-    image: "./images/chicken-noodle-soup.jpg",
+    image: "./images/chicken-noodle-soup.webp",
     category: "Soups",
     ingredients: [
       ["5", "carrots"],
@@ -441,7 +441,7 @@ const recipeList = [
   {
     id: "17",
     name: "Tomato Soup",
-    image: "./images/tomato-soup.jpg",
+    image: "./images/tomato-soup.webp",
     category: "Soups",
     ingredients: [
       ["10", "roma tomatoes"],
@@ -480,7 +480,7 @@ const recipeList = [
   {
     id: "18",
     name: "Tuscan Chicken Pasta",
-    image: "./images/tuscan-chicken-pasta.jpg",
+    image: "./images/tuscan-chicken-pasta.webp",
     category: "Dinners",
     ingredients: [
       ["4", "chicken breasts"],
